@@ -1,0 +1,230 @@
+header {
+    text-align: center;
+    background-color: #124614;
+    padding: 10px 0;
+    width: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header p {
+    font-size: 150%;
+    text-align: left;
+    padding-left: 15%;
+    padding-top: 15px;
+    color: rgb(212, 207, 61);
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: justify;
+    margin-bottom: 10px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.image1{
+    height: 20%;
+    width: 20%;
+    margin-left: 38%;
+    margin-right: 30%;
+}
+.menu3 img {
+    width: 190px; /* Ajuste la taille ici (augmente ou diminue) */
+    height: auto; /* Conserve les proportions */
+    margin: 15px; /* Ajoute un espace autour du logo */
+    display: block; /* Assure que le logo se comporte comme un élément bloc */
+}
+
+.menu3 {
+    float: left; 
+    margin-left: 15px; 
+}
+    
+.header-element {
+    display: inline-block;
+}
+.menu1 {
+    float: right;
+    top: -50px;
+    position: relative;
+    margin-right: 7%;
+}
+
+.menu2 {
+    float: right;
+    margin-right: 200px;
+}
+.dropbtn {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+    border: none;
+    margin-left: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1{
+    text-align: center;
+    color: #42b61e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 300%;
+    line-height: 120%;
+    margin-left: 5%;
+    color: #42b61e;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    text-align: justify; /* Justifie le texte pour qu'il s'étende sur toute la largeur disponible */
+    margin-bottom: 10px;
+    max-width: 50%; /* Définit une largeur maximale pour le texte */
+    margin-left: auto; 
+    margin-right: auto; 
+    line-height: 1.6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px; 
+    margin-bottom: 5px;  
+    width: 60%;
+    height: 60%;
+}
+
+.logement {
+    
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    background-color: #42b61e;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    clear: both
+}
+
+.logement h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.services {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.service img {
+    width: 20%;
+    height: 90%;
+}
+
+.service p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.tableau1{
+    text-align: justify;
+    width: 40%;
+    height: auto; 
+    border-collapse: collapse; 
+    border: 1px solid #000;
+    margin-left: auto;  
+    margin-right: auto; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tableau1 th, td {
+    border: 1px solid #000; 
+    padding: 8px 10px;
+    text-align: center;
+}
+
+.tableau1 th {
+    background-color: #42b61e; 
+    color: white; 
+}
+
+.tableau1 tr {
+    border-bottom: 1px solid #000; 
+}
+
+caption{
+    font-size: 300%; 
+    color: #42b61e;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center; /* Centre les images */
+    gap: 20px; /* Ajoute un espacement entre les images */
+    margin: 20px 0;
+}
+
+.image {
+    width: 45%; /* Ajuste la taille des images pour qu'elles s'alignent bien */
+    border-radius: 10px; /* Arrondi les bords */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre */
+}
+
+.liste {
+    list-style-type: disc; 
+    padding: 0 0 23px 1em;
+    line-height: 26px;
+    margin: 0 auto; 
+    max-width: 600px; 
+    text-align: left; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
