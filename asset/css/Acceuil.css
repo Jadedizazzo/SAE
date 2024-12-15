@@ -191,13 +191,13 @@ video{
     border-radius: 0px 0px 10px 10px;
     position: relative;
     height: 416px;
-    left: -252px;
-    width: 2000px;
+    left: -98px;
+    width: 113%;
 }
 
 .video-container{
     position: relative;
-    top: -29px;
+    top: -28px;
 }
 
 
@@ -270,8 +270,8 @@ h3{
 }
 
 .photo1{
-    width: 250px;
-    height: 250px;
+    width: 17%;
+    height: 35%;
     object-fit: cover;
     position: absolute;
     top: 630px;
@@ -279,8 +279,8 @@ h3{
 }
 
 .photo2{
-    width: 250px;
-    height: 250px;
+    width: 17%;
+    height: 35%;
     object-fit: cover;
     position: absolute;
     top: 630px;
@@ -288,8 +288,8 @@ h3{
 }
 
 .photo3{
-    width: 250px;
-    height: 250px;
+    width: 17%;
+    height: 35%;
     object-fit: cover;
     position: absolute;
     top: 630px;
