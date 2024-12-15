@@ -495,7 +495,38 @@ li img{
     object-fit: cover;
 }
 
-li{
+li h6{
     color: rgb(233, 226, 32);
     font-size: 150%;
+    top: -48px;
+    position: relative;
+    left: -26px;
+}
+
+li p{
+    font-size: 80%;
+    color: white;
+    position: relative;
+    top: -92px;
+    left: -22px;
+}
+
+.fa{
+    position: relative;
+    left: -29px;
+}
+
+.in{
+    position: relative;
+    left: -59px;
+}
+
+.yt{
+    position: relative;
+    left: -56px;
+}
+
+.ec{
+    position: relative;
+    left: -83px;
 }
