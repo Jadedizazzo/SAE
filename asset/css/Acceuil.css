@@ -188,11 +188,18 @@ a{
 }
 
 video{
-    width: 1494px;
-    border: 2px solid;
     border-radius: 0px 0px 10px 10px;
     position: relative;
+    height: 416px;
+    left: -252px;
+    width: 2000px;
 }
+
+.video-container{
+    position: relative;
+    top: -29px;
+}
+
 
 section{
     background-color: #217e26;
@@ -215,10 +222,7 @@ ul{
     text-align: center;
 }
 
-.video-container{
-    position: relative;
-    top: -32px;
-}
+
 
 .text-overlay{
     position: absolute;
